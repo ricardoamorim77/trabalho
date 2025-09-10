@@ -71,3 +71,21 @@ button:haver {
 button:active{
     opacity: 0.8;
 }
+@media (max-width: 600px) {
+    .input-container{
+        flex-direction: column;
+        gap: 15px;
+        width: 90%;
+    }
+    input {
+        width: 100%;
+        text-align: center;
+
+    }
+    .input-min{
+        margin-right: 0;
+    }
+    button{
+        width: 90%;
+    }
+}
